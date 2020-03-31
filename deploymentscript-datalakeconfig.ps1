@@ -1,3 +1,5 @@
+param([string] $name)
+
 Install-Module PowerShellGet –Repository PSGallery –Force
 Install-Module Az.Storage -RequiredVersion 1.13.3-preview -Repository PSGallery -AllowClobber -AllowPrerelease -Force
 
